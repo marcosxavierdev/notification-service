@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Slf4j
 @RequestMapping("/notification-service")
-public class NotificationService {
+public class NotificationServiceController {
 
     @GetMapping("/health")
     public ResponseEntity<String> getHealth() {
